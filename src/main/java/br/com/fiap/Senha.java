@@ -6,6 +6,10 @@ public class Senha {
     String login;
     String local;
     
+    @Override
+    public String toString() {
+        return "Senha [senha=" + senha + ", login=" + login + ", local=" + local + "]";
+    }
     public Senha(String senha, String login, String local) {
         this.senha = senha;
         this.login = login;
